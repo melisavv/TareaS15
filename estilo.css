@@ -1,0 +1,44 @@
+body{
+    background-image: url(img/fondo1.jpg);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+}
+h1{
+    text-transform: uppercase;
+    text-decoration-line: underline;
+    text-align: center;
+}
+form{
+    background-color: black;
+    width: 400px;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 40px;
+    box-shadow: 0 0 20px 1px rgb(104, 241, 141);
+    position: relative;
+}
+label{
+    display:inline-block;
+    width: 110px; 
+    margin-bottom: 20px;   
+}
+.datos{
+    margin: auto;
+    display: inline-flexbox;
+    width: 200px;
+    border: 1px solid rgb(243, 237, 237);
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+#M{
+    border:  2px solid rgb(0, 0, 0);
+    height: 80px;
+}
+#boton{
+    float: right;
+    background-color: #bebebe;
+    border: 11px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
